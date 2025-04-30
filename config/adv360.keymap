@@ -31,6 +31,29 @@
         };
     };
 
+    macros {
+        macro_not_equal: macro_not_equal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE &kp CARET &kp EQUAL &kp SPACE>;
+            label = "MACRO_NOT_EQUAL";
+        };
+
+        macro_comment: macro_comment {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp FSLH &kp STAR &kp SPACE &kp SPACE &kp STAR &kp FSLH &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT_ARROW>;
+            label = "MACRO_COMMENT";
+        };
+
+        macro_parens: macro_parens {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DQT &kp SPACE &kp SPACE &kp DQT &kp LEFT &kp LEFT_ARROW>;
+            label = "MACRO_PARENS";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
