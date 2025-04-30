@@ -46,13 +46,6 @@
             label = "MACRO_COMMENT";
         };
 
-        macro_dquotes: macro_parens {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp DQT &kp SPACE &kp SPACE &kp DQT &kp LEFT &kp LEFT_ARROW>;
-            label = "MACRO_PARENS";
-        };
-
         macro_larger_than: macro_larger_than {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -79,6 +72,13 @@
             #binding-cells = <0>;
             bindings = <&kp SPACE &kp LT &kp EQUAL &kp SPACE>;
             label = "MACRO_SMALLER_THAN";
+        };
+
+        macro_dquote: macro_dquote {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DQT &kp DQT &kp LEFT_ARROW>;
+            label = "MACRO_DQUOTE";
         };
     };
 
@@ -107,11 +107,11 @@
 
         layer_fn {
             bindings = <
-&kp F11           &kp F1         &kp F2          &kp F3          &kp F4         &kp F5         &kp CAPSLOCK                                                                        &trans  &macro_not_equal  &kp F7         &macro_comment       &macro_dquotes      &kp F10            &macro_arrow
+&kp F11           &kp F1         &kp F2          &kp F3          &kp F4         &kp F5         &kp CAPSLOCK                                                                        &trans  &macro_not_equal  &kp F7         &macro_comment       &trans              &kp F10            &macro_arrow
 &kp LG(TAB)       &kp LC(LS(Q))  &kp LC(LS(W))   &kp LC(LS(E))   &kp LC(LS(R))  &kp LC(LS(T))  &kp INSERT                                                                          &trans  &kp LC(LS(Y))     &kp LC(LS(U))  &kp LC(LS(I))        &kp LC(LS(O))       &kp LC(LS(P))      &kp BACKSLASH
-&macro_not_equal  &kp LC(LS(A))  &kp LC(LS(S))   &kp LC(LS(D))   &kp LC(LS(F))  &kp LC(LS(G))  &kp LG(LC(LEFT))  &macro_arrow  &kp LG(LC(RIGHT))      &trans         &kp LEFT_WIN  &trans  &kp LC(LS(H))     &kp LC(LS(J))  &kp LC(LS(K))        &kp LG(L)           &kp LC(LS(SEMI))   &macro_dquotes
+&macro_not_equal  &kp LC(LS(A))  &kp LC(LS(S))   &kp LC(LS(D))   &kp LC(LS(F))  &kp LC(LS(G))  &kp LG(LC(LEFT))  &macro_arrow  &kp LG(LC(RIGHT))      &trans         &kp LEFT_WIN  &trans  &kp LC(LS(H))     &kp LC(LS(J))  &kp LC(LS(K))        &kp LG(L)           &kp LC(LS(SEMI))   &macro_dquote
 &trans            &kp LC(Z)      &kp LC(X)       &kp LC(C)       &kp LC(V)      &kp LC(LS(B))                                  &kp HOME               &kp PAGE_UP                          &kp LC(LS(N))     &kp LC(LS(M))  &macro_smaller_than  &macro_larger_than  &kp LC(LS(SLASH))  &trans
-&trans            &mo 2          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT                     &trans            &trans        &kp END                &kp PAGE_DOWN  &trans        &trans                    &trans         &trans               &macro_braces       &macro_dquotes     &mo 2
+&trans            &mo 2          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT                     &trans            &trans        &kp END                &kp PAGE_DOWN  &trans        &trans                    &trans         &trans               &macro_braces       &trans             &mo 2
             >;
         };
 
