@@ -114,11 +114,11 @@
 
         layer_fn {
             bindings = <
-&kp F11           &kp F1         &kp F12        &kp F3         &kp LS(F4)     &kp F5         &kp CAPSLOCK                                                                  &trans  &macro_not_equal  &kp F7         &macro_comment       &macro_paren        &kp F10           &macro_arrow
-&kp LA(TAB)       &kp LC(LS(Q))  &kp LC(LS(W))  &kp LC(LS(E))  &kp LC(LS(R))  &kp LC(LS(T))  &kp INSERT                                                                    &trans  &kp LC(LS(Y))     &kp LC(LS(U))  &kp LC(LS(I))        &kp LC(LS(O))       &kp LC(LS(P))     &kp BACKSLASH
-&macro_not_equal  &kp LC(LS(A))  &kp LC(S)      &kp LC(LS(D))  &kp LC(F)      &kp LC(LS(G))  &kp LG(LC(LEFT))  &mo 2   &kp LG(LC(RIGHT))      &trans         &kp LEFT_WIN  &trans  &kp LC(H)         &kp LC(LS(J))  &kp LC(LS(K))        &kp LG(L)           &kp LC(LS(SEMI))  &macro_dquote
-&trans            &kp LC(Z)      &kp LC(X)      &kp LC(C)      &kp LC(V)      &kp LC(LS(B))                            &kp HOME               &kp PAGE_UP                          &kp LC(LS(N))     &kp LC(LS(M))  &macro_smaller_than  &macro_larger_than  &kp LC(SLASH)     &trans
-&trans            &mo 2          &trans         &trans         &trans                        &trans            &trans  &kp END                &kp PAGE_DOWN  &trans        &trans                    &trans         &trans               &macro_brace        &trans            &mo 2
+&kp F11           &kp F1     &kp F12        &kp F3         &kp LS(F4)  &kp F5         &kp CAPSLOCK                                                                  &trans  &macro_not_equal  &kp F7         &macro_comment       &macro_paren        &kp F10           &macro_arrow
+&kp LA(TAB)       &kp LC(Q)  &kp LC(LS(W))  &kp LC(E)      &kp LC(R)   &kp LC(LS(T))  &kp INSERT                                                                    &trans  &kp LC(LS(Y))     &kp LC(LS(U))  &kp LC(LS(I))        &kp LC(LS(O))       &kp LC(LS(P))     &kp BACKSLASH
+&macro_not_equal  &kp LC(A)  &kp LC(S)      &kp LC(LS(D))  &kp LC(F)   &kp LC(LS(G))  &kp LG(LC(LEFT))  &mo 2   &kp LG(LC(RIGHT))      &trans         &kp LEFT_WIN  &trans  &kp LC(H)         &kp LC(LS(J))  &kp LC(LS(K))        &kp LG(L)           &kp LC(LS(SEMI))  &macro_dquote
+&trans            &kp LC(Z)  &kp LC(X)      &kp LC(C)      &kp LC(V)   &kp LC(LS(B))                            &kp HOME               &kp PAGE_UP                          &kp LC(LS(N))     &kp LC(LS(M))  &macro_smaller_than  &macro_larger_than  &kp LC(SLASH)     &trans
+&trans            &mo 2      &trans         &trans         &trans                     &trans            &trans  &kp END                &kp PAGE_DOWN  &trans        &trans                    &trans         &trans               &macro_brace        &trans            &mo 2
             >;
         };
 
