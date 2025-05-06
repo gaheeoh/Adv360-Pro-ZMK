@@ -94,11 +94,11 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE        &kp N1  &kp N2     &kp N3     &kp N4      &kp N5  &mo 3                                                                     &mo 3      &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB           &kp Q   &kp W      &kp E      &kp R       &kp T   &kp PRINTSCREEN                                                           &kp GRAVE  &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BACKSLASH
-&kp EQUAL         &kp A   &kp S      &kp D      &kp F       &kp G   &kp LEFT         &mo 2    &kp RIGHT          &kp LEFT_WIN  &kp RIGHT_ALT  &tog 1     &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT         &kp Z   &kp X      &kp C      &kp V       &kp B                             &kp PG_UP          &kp HOME                                &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&kp LEFT_CONTROL  &mo 2   &kp KP_N0  &kp KP_N5  &kp KP_DOT          &kp BSPC         &kp DEL  &kp PAGE_DOWN      &kp END       &kp ENTER      &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
+&kp ESCAPE        &kp N1  &kp N2     &kp N3     &kp N4      &kp N5  &mo 3                                                                              &mo 3      &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB           &kp Q   &kp W      &kp E      &kp R       &kp T   &kp PRINTSCREEN                                                                    &kp GRAVE  &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BACKSLASH
+&kp EQUAL         &kp A   &kp S      &kp D      &kp F       &kp G   &kp LEFT         &kp LEFT_CONTROL  &kp RIGHT          &kp LEFT_WIN  &kp RIGHT_ALT  &tog 1     &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT         &kp Z   &kp X      &kp C      &kp V       &kp B                                      &kp PG_UP          &kp HOME                                &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&kp LEFT_CONTROL  &mo 2   &kp KP_N0  &kp KP_N5  &kp KP_DOT          &kp BSPC         &kp DEL           &kp PAGE_DOWN      &kp END       &kp ENTER      &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
@@ -116,7 +116,7 @@
             bindings = <
 &kp F11           &kp F1     &kp F12        &kp F3         &kp LS(F4)  &kp F5         &kp CAPSLOCK                                                                  &trans  &macro_not_equal  &kp F7         &macro_comment       &macro_paren        &kp F10           &macro_arrow
 &kp LA(TAB)       &kp LC(Q)  &kp LC(LS(W))  &kp LC(E)      &kp LC(R)   &kp LC(LS(T))  &kp INSERT                                                                    &trans  &kp LC(LS(Y))     &kp LC(LS(U))  &kp LC(LS(I))        &kp LC(LS(O))       &kp LC(P)         &kp BACKSLASH
-&macro_not_equal  &kp LC(A)  &kp LC(S)      &kp LC(LS(D))  &kp LC(F)   &kp LC(LS(G))  &kp LG(LC(LEFT))  &mo 2   &kp LG(LC(RIGHT))      &trans         &kp LEFT_WIN  &trans  &kp LC(H)         &kp LC(LS(J))  &kp LC(LS(K))        &kp LG(L)           &kp LC(LS(SEMI))  &macro_dquote
+&macro_not_equal  &kp LC(A)  &kp LC(S)      &kp LC(LS(D))  &kp LC(F)   &kp LC(LS(G))  &kp LG(LC(LEFT))  &trans  &kp LG(LC(RIGHT))      &trans         &kp LEFT_WIN  &trans  &kp LC(H)         &kp LC(LS(J))  &kp LC(LS(K))        &kp LG(L)           &kp LC(LS(SEMI))  &macro_dquote
 &trans            &kp LC(Z)  &kp LC(X)      &kp LC(C)      &kp LC(V)   &kp LC(LS(B))                            &kp HOME               &kp PAGE_UP                          &kp LC(LS(N))     &kp LC(LS(M))  &macro_smaller_than  &macro_larger_than  &kp LC(SLASH)     &trans
 &trans            &mo 2      &trans         &trans         &trans                     &trans            &trans  &kp END                &kp PAGE_DOWN  &trans        &trans                    &trans         &trans               &macro_brace        &trans            &mo 2
             >;
