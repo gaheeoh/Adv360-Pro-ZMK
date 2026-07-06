@@ -104,21 +104,21 @@
 
         layer_keypad {
             bindings = <
-&trans  &kp NUMBER_1  &kp N2     &kp NUMBER_3  &kp N4      &kp N5     &trans                                                        &trans  &kp N6     &kp KP_NUM    &kp EQUAL  &kp KP_DIVIDE  &kp STAR   &kp MINUS
-&trans  &kp LC(Q)     &kp LC(W)  &kp LC(E)     &kp LC(R)   &kp LC(T)  &kp PRINTSCREEN                                               &trans  &kp Y      &kp N7        &kp N8     &kp N9         &kp MINUS  &kp BSLH
-&trans  &kp LC(A)     &kp LC(S)  &kp LC(D)     &kp LC(F)   &kp LC(G)  &trans           &trans      &trans        &trans  &trans     &tog 1  &kp LC(H)  &kp N4        &kp N5     &kp N6         &kp PLUS   &kp SQT
-&trans  &kp LC(Z)     &kp LC(X)  &kp LC(C)     &kp LC(V)   &kp SPACE                               &kp HOME      &trans                     &kp N      &kp NUMBER_1  &kp N2     &kp N3         &kp ENTER  &kp RSHFT
-&trans  &mo 2         &kp KP_N0  &kp KP_N5     &kp KP_DOT             &kp BSPC         &kp DELETE  &kp END       &trans  &kp ENTER  &kp N0             &kp UP        &kp DOWN   &kp DOT        &kp RBKT   &mo 2
+&trans  &kp NUMBER_1  &kp N2        &kp NUMBER_3  &kp N4        &kp N5     &trans                                                        &trans  &kp N6     &kp KP_NUM    &kp EQUAL  &kp KP_DIVIDE  &kp STAR   &kp MINUS
+&trans  &kp LC(Q)     &kp LC(W)     &kp LC(E)     &kp LC(R)     &kp LC(T)  &kp PRINTSCREEN                                               &trans  &kp Y      &kp N7        &kp N8     &kp N9         &kp MINUS  &kp BSLH
+&trans  &kp LC(A)     &kp LC(S)     &kp NUMBER_4  &kp LC(F)     &kp LC(G)  &trans           &trans      &trans        &trans  &trans     &tog 1  &kp LC(H)  &kp N4        &kp N5     &kp N6         &kp PLUS   &kp SQT
+&trans  &kp LC(Z)     &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_3  &kp SPACE                               &kp HOME      &trans                     &kp N      &kp NUMBER_1  &kp N2     &kp N3         &kp ENTER  &kp RSHFT
+&trans  &mo 2         &kp KP_N0     &kp KP_N5     &kp KP_DOT               &kp BSPC         &kp DELETE  &kp END       &trans  &kp ENTER  &kp N0             &kp UP        &kp DOWN   &kp DOT        &kp RBKT   &mo 2
             >;
         };
 
         layer_fn {
             bindings = <
-&kp F11           &kp F1     &kp F12        &kp F3         &kp LS(F4)  &kp F5         &kp CAPSLOCK                                                                  &trans  &macro_not_equal  &kp F7         &macro_comment       &macro_paren        &kp F10           &macro_arrow
-&kp LA(TAB)       &kp LC(Q)  &kp LC(LS(W))  &kp LC(E)      &kp LC(R)   &kp LC(LS(T))  &kp INSERT                                                                    &trans  &kp LC(LS(Y))     &kp LC(LS(U))  &kp LC(LS(I))        &kp LC(LS(O))       &kp LC(P)         &kp BACKSLASH
-&macro_not_equal  &kp LC(A)  &kp LC(S)      &kp LC(LS(D))  &kp LC(F)   &kp LC(LS(G))  &kp LG(LC(LEFT))  &trans  &kp LG(LC(RIGHT))      &trans         &kp LEFT_WIN  &trans  &kp LC(H)         &kp LC(LS(J))  &kp LC(LS(K))        &kp LG(L)           &kp LC(LS(SEMI))  &macro_dquote
-&trans            &kp LC(Z)  &kp LC(X)      &kp LC(C)      &kp LC(V)   &kp LC(LS(B))                            &kp HOME               &kp PAGE_UP                          &kp LC(LS(N))     &kp LC(LS(M))  &macro_smaller_than  &macro_larger_than  &kp LC(SLASH)     &trans
-&trans            &mo 2      &trans         &trans         &trans                     &trans            &trans  &kp END                &kp PAGE_DOWN  &trans        &trans                    &trans         &trans               &macro_brace        &trans            &mo 2
+&kp F11           &kp F1     &kp F12        &kp F3        &kp LS(F4)    &kp F5         &kp CAPSLOCK                                                                  &trans  &macro_not_equal  &kp F7         &macro_comment       &macro_paren        &kp F10           &macro_arrow
+&kp LA(TAB)       &kp LC(Q)  &kp LC(LS(W))  &kp LC(E)     &kp LC(R)     &kp LC(LS(T))  &kp INSERT                                                                    &trans  &kp LC(LS(Y))     &kp LC(LS(U))  &kp LC(LS(I))        &kp LC(LS(O))       &kp LC(P)         &kp BACKSLASH
+&macro_not_equal  &kp LC(A)  &kp LC(S)      &kp NUMBER_4  &kp LC(F)     &kp LC(LS(G))  &kp LG(LC(LEFT))  &trans  &kp LG(LC(RIGHT))      &trans         &kp LEFT_WIN  &trans  &kp LC(H)         &kp LC(LS(J))  &kp LC(LS(K))        &kp LG(L)           &kp LC(LS(SEMI))  &macro_dquote
+&trans            &kp LC(Z)  &kp NUMBER_2   &kp NUMBER_1  &kp NUMBER_3  &kp LC(LS(B))                            &trans                 &kp PAGE_UP                          &kp LC(LS(N))     &kp LC(LS(M))  &macro_smaller_than  &macro_larger_than  &kp LC(SLASH)     &trans
+&trans            &mo 2      &trans         &trans        &trans                       &trans            &trans  &trans                 &kp PAGE_DOWN  &trans        &trans                    &trans         &trans               &macro_brace        &trans            &mo 2
             >;
         };
 
